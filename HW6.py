@@ -1,4 +1,4 @@
-#Name:
+#Name:Ethan kymer
 #Class: 5th Hour
 #Assignment: HW6
 
