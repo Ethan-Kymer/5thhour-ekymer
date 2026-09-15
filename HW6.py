@@ -10,11 +10,11 @@ list.sort(reverse=True)
 #3. Create an empty list.
 mtlist=[]
 #4. Remove the median number from the first list and add it to the second list.
-list.remove(4)
-mtlist.append(4)
+poplist=list.pop(4)
+mtlist.append(poplist)
 #5. Remove the first number from the first list and add it to the second list.
-list.remove(0)
-mtlist.append(0)
+pop2=list.pop(0)
+mtlist.append(pop2)
 #6. Print both lists.
 print(list)
 print(mtlist)
@@ -22,7 +22,7 @@ print(mtlist)
 adlist= mtlist[0] + mtlist[1]
 print(adlist)
 #8. Move the number back to the first list (like you did in #4 and #5 but reversed).
-list.append(4)
+list.append(adlist)
 #9. Sort the first list from lowest to highest and print it.
-list.sort(reverse=False)
+list.sort()
 print(list)
