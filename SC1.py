@@ -70,3 +70,5 @@ print(enemydos["enemy 2"]["Damage"])
 newdmg1 = int(input("New Damage? "))
 enemydos["enemy 1"].update({"Damage": newdmg1})
 print(enemydos["enemy 1"]["Damage"])
+
+print(enemydos)
