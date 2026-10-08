@@ -1,0 +1,31 @@
+#Name: ETHAN KYMER
+#Class: 5th Hour
+#Assignment: HW12
+
+
+#1. Print Hello World!
+print("this is divisable by nothing")
+#2. Create three different boolean variables named wifi, login, and admin.
+wifi=False
+login=True
+admin=True
+#3. Create a separate integer variable that denotes the number of times
+#someone with admin credentials has logged in.
+adminlog= 49
+#4. Create a nested if statement that checks to see if wifi is true,
+#login is true, and admin is true. If they are all true, print a
+#welcome message and increase the integer variable by one. If one of them
+#is false, print an error message telling them which one they are "missing".
+
+if wifi == True:
+    if login == True:
+        if admin == True:
+            adminlog+=1
+            print("logged in")
+        else:
+            print("admin denied")
+    else:
+        print("login denied")
+else:
+    print("get a better network kid")
+
